@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Nest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="Green Nest Logo">
+        <h1>Green Nest</h1>
+        <p>Your smart home for plant care</p>
+    </header>
+
+    <div class="container" id="plant-container">
+        <!-- Fixed Plant 1 Card -->
+        <div class="container" id="plant-container">
+            <!-- Plant 1 Card -->
+            <div class="plant-card" id="plant-1">
+                <img src="https://img.freepik.com/premium-photo/sprout-vector-3d-illustration_917213-125641.jpg?w=740" alt="Plant Icon">
+                <h3 class="plant-title">Plant 1</h3>
+                <p class="reading">
+                    <img src="https://static.vecteezy.com/system/resources/previews/002/227/118/non_2x/soil-moisture-monitoring-rgb-color-icon-vector.jpg" alt="Soil Moisture">
+                    Soil Moisture: <span id="soil-moisture-1">N/A</span>
+                </p>
+                <p class="reading">
+                    <img src="https://cdn-icons-png.freepik.com/256/16644/16644183.png?semt=ais_hybrid" alt="pH">
+                    pH Level: <span id="ph-level-1">N/A</span>
+                </p>
+                <p class="reading">
+                    <img src="https://png.pngtree.com/png-clipart/20190906/original/pngtree-temperature-drop-png-image_4583457.jpg" alt="Temperature">
+                    Temperature: <span id="temperature-1">N/A</span>
+                </p>
+                <p class="reading">
+                    <img src="https://i.pinimg.com/1200x/d1/da/0c/d1da0ca0ceb9057e0c7e720079190e19.jpg" alt="Humidity">
+                    Humidity: <span id="humidity-1">N/A</span>
+                </p>
+                <p class="plant-health healthy" id="plant-health-1">Plant Health: Healthy</p>
+                <p class="pump-status" id="pump-status-1">Pump: Off</p>
+                <label class="switch">
+                    <input type="checkbox" id="pump-toggle-1" onclick="togglePump(1)">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        
+            <!-- Plant 2 Card -->
+            <div class="plant-card" id="plant-2">
+                <img src="https://img.freepik.com/premium-photo/sprout-vector-3d-illustration_917213-125641.jpg?w=740" alt="Plant Icon">
+                <h3 class="plant-title">Plant 2</h3>
+                <p class="reading">
+                    <img src="https://static.vecteezy.com/system/resources/previews/002/227/118/non_2x/soil-moisture-monitoring-rgb-color-icon-vector.jpg" alt="Soil Moisture">
+                    Soil Moisture: <span id="soil-moisture-2">N/A</span>
+                </p>
+                <p class="reading">
+                    <img src="https://cdn-icons-png.freepik.com/256/16644/16644183.png?semt=ais_hybrid" alt="pH">
+                    pH Level: <span id="ph-level-2">N/A</span>
+                </p>
+                <p class="reading">
+                    <img src="https://png.pngtree.com/png-clipart/20190906/original/pngtree-temperature-drop-png-image_4583457.jpg" alt="Temperature">
+                    Temperature: <span id="temperature-2">N/A</span>
+                </p>
+                <p class="reading">
+                    <img src="https://i.pinimg.com/1200x/d1/da/0c/d1da0ca0ceb9057e0c7e720079190e19.jpg" alt="Humidity">
+                    Humidity: <span id="humidity-2">N/A</span>
+                </p>
+                <p class="plant-health healthy" id="plant-health-1">Plant Health: Healthy</p>
+                <p class="pump-status" id="pump-status-2">Pump: Off</p>
+                <label class="switch">
+                    <input type="checkbox" id="pump-toggle-2" onclick="togglePump(2)">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+        
+
+    <button class="add-plant-btn" onclick="addPlant()">Add New Plant</button>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
