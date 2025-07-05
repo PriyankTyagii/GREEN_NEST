@@ -86,7 +86,7 @@ Contributions are welcome! Feel free to fork the project and submit a pull reque
 
 **Priyank Tyagi**  
 📧 priyanktyagi404@gmail.com  
-🔗 [LinkedIn]([https://www.linkedin.com/in/priyanktyagi404](https://www.linkedin.com/in/priyank-tyagi-3a3a10259/)) | 🔗 [GitHub](https://github.com/PriyankTyagii)
+🔗 [LinkedIn]([https://www.linkedin.com/in/priyank-tyagi-3a3a10259/]) | 🔗 [GitHub](https://github.com/PriyankTyagii)
 
 ---
 
